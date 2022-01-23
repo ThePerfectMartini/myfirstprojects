@@ -1,0 +1,43 @@
+.hidden{
+    display: none;
+}
+.cover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        animation: 1s linear;
+      }
+body{
+    color: white
+}
+
+.날라오기{
+    position:relative;
+    left:-100px;
+    width:100px;
+    height:50px;
+    margin-left:-50px;
+    color:#fff;
+    /* 애니메이션 이름 */
+    animation-name: 날라오기;
+    animation-duration:2s;
+    animation-duration: leaner;
+    animation-iteration-count:1;
+    animation-direction:alternate;
+    animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes 날라오기 {
+    0% {
+
+    }
+    100% {
+      left:50px;
+    }
+  }
+
+
+  

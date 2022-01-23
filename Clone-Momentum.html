@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="날라오기" id="clock">00:00</div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <form id='loginForm'>
+        <input type='text' placeholder='이름을 입력해주세요.' required/>
+    </form>
+    <div id="wellcomeMessage" class="hidden">wellcome</div>
+        <div id="todo">
+            <form id="todoForm">
+                <input type="text" placeholder="일정 추가하기" required/>
+            </form>
+            <ul id="todoList"></ul>
+        </div>
+
+
+    <script src="login.js"></script>
+    <script src="todoList.js"></script>
+    <script src="clock.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+
+</body>
+</html>
